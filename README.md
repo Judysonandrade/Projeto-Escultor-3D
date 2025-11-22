@@ -30,35 +30,28 @@ O programa interpreta os seguintes códigos geométricos:
 
 ## Como Compilar e Rodar
 
-### Pre-requisitos
-* Um compilador C++ (g++, clang ou MinGW).
-* (Opcional) Qt Creator para facilitar a edição.
+Para manter a organizacao dos arquivos, a compilacao sera feita em uma pasta separada chamada "build".
 
-### No Linux (Terminal)
+### Linux / Unix (Terminal)
 
-1. Abra o terminal na pasta do projeto.
-2. Compile o código com o comando:
-   g++ *.cpp -o escultor
-3. Execute o programa:
-   ./escultor
+$ mkdir build && cd build
+$cmake ..$ make
+$cd ..$ ./bin/projeto-escultor
 
-### No Windows
+### Windows (PowerShell)
 
-#### Opcao 1: Usando o Qt Creator (Recomendado)
-1. Abra o arquivo .pro do projeto no Qt Creator.
-2. Clique no ícone de Play (botão verde) ou pressione Ctrl + R.
-3. O programa irá rodar e gerar o arquivo .off na mesma pasta do executável (ou na pasta especificada no código).
+> mkdir build
+> cd build
+> cmake ..
+> cmake --build .
+> cd ..
+> .\bin\projeto-escultor.exe
 
-#### Opcao 2: Usando Terminal (MinGW/G++)
-1. Abra o PowerShell ou CMD na pasta do projeto.
-2. Compile o código:
-   g++ *.cpp -o escultor.exe
-3. Execute:
-   ./escultor.exe
+**Observacao:** O executavel gerado sera salvo automaticamente na pasta `bin/` na raiz do projeto.
 
 ## Visualizacao
 
-Após a execução, um arquivo (ex: escultura.off) será gerado. Para visualizar sua escultura:
+Apos a execucao, um arquivo (ex: escultura.off) sera gerado. Para visualizar sua escultura:
 1. Baixe e instale o software MeshLab.
 2. Abra o arquivo .off gerado no MeshLab.
 3. Use o mouse para rotacionar e visualizar seu modelo em 3D.
