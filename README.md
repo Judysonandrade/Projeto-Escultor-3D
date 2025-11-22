@@ -4,7 +4,6 @@
 
 **Componente Curricular:** DCA3303 - PROGRAMACAO AVANCADA
 
-**Linguagem:** C++ (Padrao C++11 ou superior)
 
 ## Objetivo
 
