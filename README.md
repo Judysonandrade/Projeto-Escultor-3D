@@ -37,16 +37,23 @@ Para manter a organizacao dos arquivos, a compilacao sera feita em uma pasta sep
 ### Linux / Unix (Terminal)
 
 $ mkdir build && cd build
+
 $cmake ..$ make
+
 $cd ..$ ./bin/projeto-escultor
 
 ### Windows (PowerShell)
 
 > mkdir build
+
 > cd build
+
 > cmake ..
+
 > cmake --build .
+
 > cd ..
+
 > .\bin\projeto-escultor.exe
 
 **Observacao:** O executavel gerado sera salvo automaticamente na pasta `bin/` na raiz do projeto.
