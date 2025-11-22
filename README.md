@@ -1,7 +1,9 @@
 # Escultor 3D - Projeto de Programacao Avancada
 
 **Autor:** Judyson Andrade Justino
+
 **Componente Curricular:** DCA3303 - PROGRAMACAO AVANCADA
+
 **Linguagem:** C++ (Padrao C++11 ou superior)
 
 ## Objetivo
